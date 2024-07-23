@@ -1,0 +1,72 @@
+body{
+    background: linear-gradient(90deg,#35613f,#9e9494);
+    color: #0e0d0d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+}
+.container{
+    align-items: center;
+    width: 500px;
+    /* padding: 20px; */
+    background: #d6cece;
+    border: 0 0 25px #eb0b0b,
+            0 0 35px #eb0b0b,
+            0 0 45px #eb0b0b;
+
+    border-radius: 10px;
+    height: 200px;
+    
+}
+#advice{
+    font-size: 1.2em;
+}
+button{
+    background: #470beb;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 10px;
+    color: #fff9f9;
+}
+button:hover{
+    background: #05ee37;
+}
+footer{
+    align-items: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #131111;
+  
+
+}
+.favourite{
+  background: #9e9494;  
+  width: 400px;
+  
+}
+#like-btn{
+    background: none;
+    font-size: 3em;
+    cursor: pointer;
+    color: #eb0b0b;
+}
+ul li{
+    list-style: decimal;
+    font-size: 1.2em;
+    position: relative;
+}
+.activated{
+    background: #eb0b0b;
+}
+ul li span{
+    width: 28px;
+    height: 28px;
+    background: #b3b0b0;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #141414;
+    margin-left: 50px;
+    position: absolute;
+}
