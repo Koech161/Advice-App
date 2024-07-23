@@ -20,8 +20,11 @@ body{
     height: 200px;
     
 }
+.container h1{
+    font-size: 2vw;
+}
 #advice{
-    font-size: 1.5vw;
+    font-size: 1.7vw;
 }
 button{
     background: #470beb;
@@ -46,23 +49,26 @@ footer{
   max-width: 400px;
   
 }
+.favourite h3{
+    text-align: center;
+}
 #like-btn{
     background: none;
-    font-size: 3em;
+    font-size: 2vw;
     cursor: pointer;
     color: #eb0b0b;
 }
 ul li{
     list-style: decimal;
-    font-size: 1.2vw;
+    font-size: 1.4vw;
     position: relative;
 }
 .activated{
     background: #eb0b0b;
 }
 ul li span{
-    width: 28px;
-    height: 28px;
+    max-width: 28px;
+    max-height: 28px;
     background: #b3b0b0;
     border-radius: 50%;
     cursor: pointer;
