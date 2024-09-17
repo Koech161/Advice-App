@@ -4,24 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Qoutes</title>
-    <link rel="stylesheet" href="./style.css">
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
 </head>
 <body>
-<div class="container">
-    <h1>Advice:</h1>
-    <p id="advice"></p>
-    <button id="advice_Btn">Next</button>
-    <button id="like-btn">&#9829;</button>
+<div class="container  my-5 scrollable-container">
+    <div class="card bg-primary text-white scrollable-container">
+        <div class="card-body">
+    <h1 class="text-center">Advice:</h1>
+    <p id="advice" class="text-center"></p>
+    <button class="btn btn-light mb-2" id="advice_Btn">Next</button>
+    <button class="btn btn-outline-light" id="like-btn">&#9829;</button>
 </div>
-<div class="favourite">
+</div>
+</div>
+<div class=" container mb-4">
+    <div class="card p-3 text-center">
     <h3>Favourite</h3>
-    <ul id="fav_list">
+    <ul id="fav_list" class="list-unstyled">
         
     </ul>
 </div>
- <footer>
-    <p>&copy; 2024 ABTECH, All rights reserved. </p>
-</footer> 
+</div> 
+<footer class="text-center py-3 fixed-bottom bg-light border-top">
+    <div class="container">
+        <p class="mb-1">Disclaimer: This advice is automatically generated and should not be relied upon excessively.</p>
+        <p class="mb-0">&copy; 2024. All rights reserved.</p>
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
     <script src="index.js"></script>
 </body>
 </html>

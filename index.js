@@ -21,10 +21,13 @@ likeBtn.addEventListener('click',()=>{
     const newAdvice = advice.textContent.trim()
     if(newAdvice){
 const li= document.createElement('li')
+li.className = 'list-group-item d-flex justify-content-between align-items-center'; 
 li.textContent = newAdvice
 fav.appendChild(li)
 const span=document.createElement('span')
-span.textContent='x'
+span.textContent='X'
+span.className = 'badge badge-danger badge-pill cursor-pointer';
+span.style.cursor = 'pointer';
 li.append(span)
     } saveAdvice()
 
@@ -36,12 +39,7 @@ function removeFav(e){
         saveAdvice()
     }
 }
-// likeBtn.classList.add('activated')
-// if(!likeBtn.classList.contains('activated')){
-//     likeBtn.style.background='white'
-// }else{
-// likeBtn.style.background='red'
-// }
+
 function saveAdvice(){
     localStorage.setItem('advice',fav.innerHTML)
 }
